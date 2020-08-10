@@ -6,11 +6,12 @@
 	<style type="text/css">
 		body{
 			background-color : rgb(239,239,239);
+			font-family: 'courier', serif;
 
 		}
 		h1 {
 			color:black;
-			font-family: 'courier';
+			;
 			font-size: 15px;
 			
 		}
@@ -23,11 +24,18 @@
 			padding: 20px;
 		}
 		nav ul {
-			color:grey;
-			font-family: 'courier';
-			font-size: 15px;
 			text-transform: uppercase;
-			text-align: center;
+			border-top: black solid 3px;
+			border-bottom: black solid 1px;
+			padding: 10px;
+		}
+		nav li {
+			display: inline-block;
+			margin: 0px 15px;
+		}
+		nav li a {
+			text-decoration: none;
+			color:rgb(13,13,13);
 		}
 	</style>
 </head>
@@ -35,7 +43,6 @@
 	
 <div id="box1">
 	<img src="logo (1).gif" >
-	<hr>
 	<nav>
 		<ul>
 			<li><a href="#">home</a></li>
@@ -45,11 +52,13 @@
 			<li><a href="#">contact</a></li>
 	</ul>
 	</nav>
+	<main>
 	<img src="keys.jpg">
 
-	<h1>We specialized in the sale and repair of classic keyboards, in</h1>
-	<h1>particular the Fender Rhodes Wurlitzer EP200, and Hohner</h1>
-	<h1>Clavinet.</h1>
+	<p>We specialized in the sale and repair of classic keyboards, in
+	particular the Fender Rhodes Wurlitzer EP200, and Hohner
+	Clavinet.</p>
+	</main>
 </div>
 </body>
 </html>
